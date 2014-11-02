@@ -14,6 +14,7 @@
 		5B3D790B1A059FDA00438F81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3D790A1A059FDA00438F81 /* Images.xcassets */; };
 		5B3D790E1A059FDA00438F81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3D790C1A059FDA00438F81 /* LaunchScreen.xib */; };
 		5B3D791A1A059FDA00438F81 /* TransparentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D79191A059FDA00438F81 /* TransparentControlTests.m */; };
+		5B3D79251A05A52800438F81 /* TransparentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D79241A05A52800438F81 /* TransparentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5B3D79131A059FDA00438F81 /* TransparentControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3D79181A059FDA00438F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3D79191A059FDA00438F81 /* TransparentControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentControlTests.m; sourceTree = "<group>"; };
+		5B3D79231A05A52800438F81 /* TransparentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentControl.h; sourceTree = "<group>"; };
+		5B3D79241A05A52800438F81 /* TransparentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5B3D79021A059FDA00438F81 /* AppDelegate.m */,
 				5B3D79041A059FDA00438F81 /* ViewController.h */,
 				5B3D79051A059FDA00438F81 /* ViewController.m */,
+				5B3D79231A05A52800438F81 /* TransparentControl.h */,
+				5B3D79241A05A52800438F81 /* TransparentControl.m */,
 				5B3D79071A059FDA00438F81 /* Main.storyboard */,
 				5B3D790A1A059FDA00438F81 /* Images.xcassets */,
 				5B3D790C1A059FDA00438F81 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				5B3D79061A059FDA00438F81 /* ViewController.m in Sources */,
 				5B3D79031A059FDA00438F81 /* AppDelegate.m in Sources */,
+				5B3D79251A05A52800438F81 /* TransparentControl.m in Sources */,
 				5B3D79001A059FDA00438F81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
